@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,7 +11,9 @@
     <link href="css/Cloudlare_font-awesome.min.css" rel="stylesheet" />
     <link href="css/glyphicon.css" rel="stylesheet" />
     <script src="../Scripts/Chart.min.js"></script>
-    
+    <%--<script src="../Scripts/jquery-1.10.2.js"></script>
+    <script src="../Scripts/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/Scripts/jquery-ui.js"></script>--%>
 
     <style>
         html, body, h1, h2, h3, h4, h5 {
@@ -319,22 +320,22 @@
                     data: {
                         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
                         datasets: [{
-                            label: 'Baseline',
-                            borderColor: window.chartColors.grey,
-                            pointBackgroundColor: window.chartColors.grey,
-                            backgroundColor: window.chartColors.grey,
-                            type: 'line',
-                            fill: false,
-                            data: [21, 23, 23, 34, 23, 23, 21, 12, 23, 34, 32, 23]
-                        }, {
-                            label: 'KPI',
-                            borderColor: window.chartColors.orange,
-                            pointBackgroundColor: window.chartColors.orange,
-                            backgroundColor: window.chartColors.orange,
-                            type: 'line',
-                            fill: false,
-                            data: [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
-                        }, {
+                        //    label: 'Baseline',
+                        //    borderColor: window.chartColors.grey,
+                        //    pointBackgroundColor: window.chartColors.grey,
+                        //    backgroundColor: window.chartColors.grey,
+                        //    type: 'line',
+                        //    fill: false,
+                        //    data: [21, 23, 23, 34, 23, 23, 21, 12, 23, 34, 32, 23]
+                        //}, {
+                        //    label: 'KPI',
+                        //    borderColor: window.chartColors.orange,
+                        //    pointBackgroundColor: window.chartColors.orange,
+                        //    backgroundColor: window.chartColors.orange,
+                        //    type: 'line',
+                        //    fill: false,
+                        //    data: [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+                        //}, {
                             label: 'WT',
                             backgroundColor: window.chartColors.red,
                             stack: 'Stack 0',
@@ -385,7 +386,8 @@
                             backgroundColor: window.chartColors.grey,
                             type: 'line',
                             fill: false,
-                            data: [21, 44, 67, 101, 124, 147, 168, 180, 203, 237, 269, 292]
+                            data: [292, 292, 292, 292, 292, 292, 292, 292, 292, 292, 292, 292]
+                            //data: [21, 44, 67, 101, 124, 147, 168, 180, 203, 237, 269, 292]
                         }, {
                             label: 'KPI',
                             borderColor: window.chartColors.orange,
@@ -439,23 +441,23 @@
                     data: {
                         labels: ["2018", "2019", "2020", "2021"],
                         datasets: [{
-                            label: 'Baseline',
-                            borderColor: window.chartColors.grey,
-                            pointBackgroundColor: window.chartColors.grey,
-                            backgroundColor: window.chartColors.grey,
-                            type: 'line',
-                            fill: false,
-                            data: [21, 23, 23, 34]
-                        },
-                            {
-                                label: 'KPI',
-                                borderColor: window.chartColors.orange,
-                                pointBackgroundColor: window.chartColors.orange,
-                                backgroundColor: window.chartColors.orange,
-                                type: 'line',
-                                fill: false,
-                                data: [50, 50, 50, 50]
-                            }, {
+                        //    label: 'Baseline',
+                        //    borderColor: window.chartColors.grey,
+                        //    pointBackgroundColor: window.chartColors.grey,
+                        //    backgroundColor: window.chartColors.grey,
+                        //    type: 'line',
+                        //    fill: false,
+                        //    data: [21, 23, 23, 34]
+                        //},
+                        //    {
+                        //        label: 'KPI',
+                        //        borderColor: window.chartColors.orange,
+                        //        pointBackgroundColor: window.chartColors.orange,
+                        //        backgroundColor: window.chartColors.orange,
+                        //        type: 'line',
+                        //        fill: false,
+                        //        data: [50, 50, 50, 50]
+                        //    }, {
                                 label: 'WT',
                                 backgroundColor: window.chartColors.red,
                                 stack: 'Stack 0',
@@ -506,7 +508,8 @@
                             backgroundColor: window.chartColors.grey,
                             type: 'line',
                             fill: false,
-                            data: [21, 44, 67, 101]
+                            data: [101, 101, 101, 101]
+                            //data: [21, 44, 67, 101]
                         }, {
                             label: 'KPI',
                             borderColor: window.chartColors.orange,
@@ -514,7 +517,7 @@
                             backgroundColor: window.chartColors.orange,
                             type: 'line',
                             fill: false,
-                            data: [200, 200, 200, 200]
+                            data: [150, 200, 180, 160]
                         }, {
                             label: 'WT',
                             backgroundColor: window.chartColors.red,
@@ -562,23 +565,23 @@
                     data: {
                         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
                         datasets: [{
-                            label: 'Baseline',
-                            borderColor: window.chartColors.grey,
-                            pointBackgroundColor: window.chartColors.grey,
-                            backgroundColor: window.chartColors.grey,
-                            type: 'line',
-                            fill: false,
-                            data: [21, 23, 23, 34, 23, 23, 21, 12, 23, 34, 32, 23]
-                        },
-                            {
-                                label: 'KPI',
-                                borderColor: window.chartColors.orange,
-                                pointBackgroundColor: window.chartColors.orange,
-                                backgroundColor: window.chartColors.orange,
-                                type: 'line',
-                                fill: false,
-                                data: [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
-                            }, {
+                        //    label: 'Baseline',
+                        //    borderColor: window.chartColors.grey,
+                        //    pointBackgroundColor: window.chartColors.grey,
+                        //    backgroundColor: window.chartColors.grey,
+                        //    type: 'line',
+                        //    fill: false,
+                        //    data: [21, 23, 23, 34, 23, 23, 21, 12, 23, 34, 32, 23]
+                        //},
+                        //    {
+                        //        label: 'KPI',
+                        //        borderColor: window.chartColors.orange,
+                        //        pointBackgroundColor: window.chartColors.orange,
+                        //        backgroundColor: window.chartColors.orange,
+                        //        type: 'line',
+                        //        fill: false,
+                        //        data: [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+                        //    }, {
                                 label: 'WCD',
                                 backgroundColor: window.chartColors.cpink,
                                 stack: 'Stack 0',
@@ -635,7 +638,8 @@
                             backgroundColor: window.chartColors.grey,
                             type: 'line',
                             fill: false,
-                            data: [21, 44, 67, 101, 124, 147, 168, 180, 203, 237, 269, 292]
+                            data: [292, 292, 292, 292, 292, 292, 292, 292, 292, 292, 292, 292]
+                            //data: [21, 44, 67, 101, 124, 147, 168, 180, 203, 237, 269, 292]
                         }, {
                             label: 'KPI',
                             borderColor: window.chartColors.orange,
@@ -694,23 +698,23 @@
                     data: {
                         labels: ["2018", "2019", "2020", "2021"],
                         datasets: [{
-                            label: 'Baseline',
-                            borderColor: window.chartColors.grey,
-                            pointBackgroundColor: window.chartColors.grey,
-                            backgroundColor: window.chartColors.grey,
-                            type: 'line',
-                            fill: false,
-                            data: [21, 23, 23, 34]
-                        },
-                            {
-                                label: 'KPI',
-                                borderColor: window.chartColors.orange,
-                                pointBackgroundColor: window.chartColors.orange,
-                                backgroundColor: window.chartColors.orange,
-                                type: 'line',
-                                fill: false,
-                                data: [50, 50, 50, 50]
-                            }, {
+                        //    label: 'Baseline',
+                        //    borderColor: window.chartColors.grey,
+                        //    pointBackgroundColor: window.chartColors.grey,
+                        //    backgroundColor: window.chartColors.grey,
+                        //    type: 'line',
+                        //    fill: false,
+                        //    data: [21, 23, 23, 34]
+                        //},
+                        //    {
+                        //        label: 'KPI',
+                        //        borderColor: window.chartColors.orange,
+                        //        pointBackgroundColor: window.chartColors.orange,
+                        //        backgroundColor: window.chartColors.orange,
+                        //        type: 'line',
+                        //        fill: false,
+                        //        data: [50, 50, 50, 50]
+                        //    }, {
                                 label: 'WCD',
                                 backgroundColor: window.chartColors.cpink,
                                 stack: 'Stack 0',
@@ -767,7 +771,8 @@
                             backgroundColor: window.chartColors.grey,
                             type: 'line',
                             fill: false,
-                            data: [21, 44, 67, 101]
+                            data: [101, 101, 101, 101]
+                            //data: [21, 44, 67, 101]
                         }, {
                             label: 'KPI',
                             borderColor: window.chartColors.orange,
@@ -775,7 +780,7 @@
                             backgroundColor: window.chartColors.orange,
                             type: 'line',
                             fill: false,
-                            data: [200, 200, 200, 200]
+                            data: [150, 200, 180, 160]
                         }, {
                             label: 'WCD',
                             backgroundColor: window.chartColors.cpink,
@@ -848,7 +853,7 @@
                     </div>
                     <div class="w3-col s8 w3-bar">
                         <span>Welcome, <strong>User</strong></span><br />
-                        <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>-->
+                        <%--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>--%>
                     </div>
                 </div>
                 <hr>
@@ -860,8 +865,8 @@
                     <a href="#" class="w3-bar-item w3-button w3-padding" onclick="BoundrySetting_Click()"><i>○</i> 邊界設定</a>
                     <a href="#" class="w3-bar-item w3-button w3-padding" onclick="IndicatorSetting_Click()"><i>○</i> 指標設定</a>
                     <a href="#" class="w3-bar-item w3-button w3-padding" onclick="KpiBaseSetting_Click()"><i>○</i> 年度KPI設定</a>
-                    <!--<a href="#" class="w3-bar-item w3-button w3-padding" onclick="GroupSetting_Click()"><i>○</i> 群組設定</a>
-                    <a href="#" class="w3-bar-item w3-button w3-padding" onclick="EsgiKpiSetting_Click()"><i>○</i> ESGI KPI 設定</a>-->
+                    <%--<a href="#" class="w3-bar-item w3-button w3-padding" onclick="GroupSetting_Click()"><i>○</i> 群組設定</a>
+                    <a href="#" class="w3-bar-item w3-button w3-padding" onclick="EsgiKpiSetting_Click()"><i>○</i> ESGI KPI 設定</a>--%>
                     <a href="#" class="w3-bar-item w3-button w3-padding" onclick="IntStdSetting_Click()"><i>○</i> 國際標準設定</a>
                     <a href="#" class="w3-bar-item w3-button w3-padding" onclick="DashOverSetting_Click()"><i>○</i> Dashboard 設定</a>
 
@@ -2375,7 +2380,7 @@
                             以下SDG對應範例取自　<a href="https://www.foxconn.com/zh-tw/CSR">鴻海網頁 </a>
                         </label>
                         <div style="border: none; overflow: hidden; max-width: initial;">
-                            <!--scrolling="no"-->
+                            <%--scrolling="no"--%>
                             <iframe scrolling="no" src="https://www.foxconn.com/zh-tw/CSR" style="border: 0px none; margin-left: 0px; height: 1700px; margin-top: -600px; width: 1300px;"></iframe>
                         </div>
                     </div>
@@ -2578,7 +2583,7 @@
             <br />
         </div>
 
-        <!--<div class="w3-row-padding w3-margin-bottom">
+        <%--<div class="w3-row-padding w3-margin-bottom">
                     <div class="w3-quarter">
                         <div class="w3-container w3-red w3-padding-16">
                             <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
@@ -2757,7 +2762,7 @@
                             <p>Interests</p>
                         </div>
                     </div>
-                </div>-->
+                </div>--%>
 
         <!-- Footer -->
         <footer style="color: #b6e2e9 !important;" class="w3-container w3-padding-16 w3-light-grey">
